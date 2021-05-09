@@ -276,6 +276,9 @@ input[type="submit"]:focus {
 4. Header
 ------------------------------------------------------------ */
 @media only screen and (min-width: 1025px) {
+  .right-header-photo{
+    display: none;
+  }
   .info-list-home{
     margin-top: 20px;
   }
@@ -2474,6 +2477,10 @@ blockquote {
 
 
 @media only screen and (max-width: 768px) {
+  .header-photo:after{
+    opacity: 0.5;
+    background-image: -webkit-repeating-radial-gradient(center center, #5e2fd6, #5e2fd6 1px, transparent 0px, transparent 100%);
+  }
   .info-list-home-mb{
     margin-top: 1rem;
   }
@@ -2866,8 +2873,8 @@ blockquote {
  }
 
  .title-block h2 {
-    font-size: 48px;
-    line-height: 56px;
+  font-size: 36px;
+  line-height: 39px;
     margin: 0 0 10px;
     text-align: center;
   }
